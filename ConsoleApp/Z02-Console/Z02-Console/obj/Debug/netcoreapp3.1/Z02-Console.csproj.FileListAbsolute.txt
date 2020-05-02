@@ -1,0 +1,13 @@
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\bin\Debug\netcoreapp3.1\Z02-Console.exe
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\bin\Debug\netcoreapp3.1\Z02-Console.deps.json
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\bin\Debug\netcoreapp3.1\Z02-Console.runtimeconfig.json
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\bin\Debug\netcoreapp3.1\Z02-Console.runtimeconfig.dev.json
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\bin\Debug\netcoreapp3.1\Z02-Console.dll
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\bin\Debug\netcoreapp3.1\Z02-Console.pdb
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\obj\Debug\netcoreapp3.1\Z02-Console.csprojAssemblyReference.cache
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\obj\Debug\netcoreapp3.1\Z02-Console.csproj.CoreCompileInputs.cache
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\obj\Debug\netcoreapp3.1\Z02-Console.AssemblyInfoInputs.cache
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\obj\Debug\netcoreapp3.1\Z02-Console.AssemblyInfo.cs
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\obj\Debug\netcoreapp3.1\Z02-Console.dll
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\obj\Debug\netcoreapp3.1\Z02-Console.pdb
+C:\Users\karli\source\repos\Z02-Console\Z02-Console\obj\Debug\netcoreapp3.1\Z02-Console.genruntimeconfig.cache
