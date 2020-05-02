@@ -30,11 +30,11 @@ namespace Z01_Console
             double side3 = Convert.ToDouble(Console.ReadLine());
             if (side1 == side2 || side1 == side3 || side2 == side3)
             {
-                Console.WriteLine("Треугольник равнобедренный");
+                Console.WriteLine("Треугольник равнобедренный)");
             }
             else
             {
-                Console.WriteLine("Треугольник не равнобедренный");
+                Console.WriteLine("Треугольник не равнобедренный(");
             }
         }
     }

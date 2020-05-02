@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karli\\source\\repos\\Z01-Console\\Z01-Console\\Z01-Console.csproj": {}
+    "C:\\Users\\karli\\OneDrive\\Рабочий стол\\practice\\ConsoleApp\\Z01-Console\\Z01-Console\\Z01-Console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karli\\source\\repos\\Z01-Console\\Z01-Console\\Z01-Console.csproj": {
+    "C:\\Users\\karli\\OneDrive\\Рабочий стол\\practice\\ConsoleApp\\Z01-Console\\Z01-Console\\Z01-Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karli\\source\\repos\\Z01-Console\\Z01-Console\\Z01-Console.csproj",
+        "projectUniqueName": "C:\\Users\\karli\\OneDrive\\Рабочий стол\\practice\\ConsoleApp\\Z01-Console\\Z01-Console\\Z01-Console.csproj",
         "projectName": "Z01-Console",
-        "projectPath": "C:\\Users\\karli\\source\\repos\\Z01-Console\\Z01-Console\\Z01-Console.csproj",
+        "projectPath": "C:\\Users\\karli\\OneDrive\\Рабочий стол\\practice\\ConsoleApp\\Z01-Console\\Z01-Console\\Z01-Console.csproj",
         "packagesPath": "C:\\Users\\karli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karli\\source\\repos\\Z01-Console\\Z01-Console\\obj\\",
+        "outputPath": "C:\\Users\\karli\\OneDrive\\Рабочий стол\\practice\\ConsoleApp\\Z01-Console\\Z01-Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
