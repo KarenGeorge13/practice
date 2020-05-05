@@ -1,0 +1,13 @@
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\obj\Debug\netcoreapp3.1\Z07-Console.csprojAssemblyReference.cache
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\obj\Debug\netcoreapp3.1\Z07-Console.csproj.CoreCompileInputs.cache
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\obj\Debug\netcoreapp3.1\Z07-Console.AssemblyInfoInputs.cache
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\obj\Debug\netcoreapp3.1\Z07-Console.AssemblyInfo.cs
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\bin\Debug\netcoreapp3.1\Z07-Console.exe
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\bin\Debug\netcoreapp3.1\Z07-Console.deps.json
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\bin\Debug\netcoreapp3.1\Z07-Console.runtimeconfig.json
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\bin\Debug\netcoreapp3.1\Z07-Console.runtimeconfig.dev.json
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\bin\Debug\netcoreapp3.1\Z07-Console.dll
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\bin\Debug\netcoreapp3.1\Z07-Console.pdb
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\obj\Debug\netcoreapp3.1\Z07-Console.dll
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\obj\Debug\netcoreapp3.1\Z07-Console.pdb
+C:\Users\karli\source\repos\Z07-Console\Z07-Console\obj\Debug\netcoreapp3.1\Z07-Console.genruntimeconfig.cache

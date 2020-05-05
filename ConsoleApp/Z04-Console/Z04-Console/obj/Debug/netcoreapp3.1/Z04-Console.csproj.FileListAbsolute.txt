@@ -1,0 +1,12 @@
+C:\Users\karli\source\repos\Z04-Console\Z04-Console\bin\Debug\netcoreapp3.1\Z04-Console.exe
+C:\Users\karli\source\repos\Z04-Console\Z04-Console\bin\Debug\netcoreapp3.1\Z04-Console.deps.json
+C:\Users\karli\source\repos\Z04-Console\Z04-Console\bin\Debug\netcoreapp3.1\Z04-Console.runtimeconfig.json
+C:\Users\karli\source\repos\Z04-Console\Z04-Console\bin\Debug\netcoreapp3.1\Z04-Console.runtimeconfig.dev.json
+C:\Users\karli\source\repos\Z04-Console\Z04-Console\bin\Debug\netcoreapp3.1\Z04-Console.dll
+C:\Users\karli\source\repos\Z04-Console\Z04-Console\bin\Debug\netcoreapp3.1\Z04-Console.pdb
+C:\Users\karli\source\repos\Z04-Console\Z04-Console\obj\Debug\netcoreapp3.1\Z04-Console.csproj.CoreCompileInputs.cache
+C:\Users\karli\source\repos\Z04-Console\Z04-Console\obj\Debug\netcoreapp3.1\Z04-Console.AssemblyInfoInputs.cache
+C:\Users\karli\source\repos\Z04-Console\Z04-Console\obj\Debug\netcoreapp3.1\Z04-Console.AssemblyInfo.cs
+C:\Users\karli\source\repos\Z04-Console\Z04-Console\obj\Debug\netcoreapp3.1\Z04-Console.dll
+C:\Users\karli\source\repos\Z04-Console\Z04-Console\obj\Debug\netcoreapp3.1\Z04-Console.pdb
+C:\Users\karli\source\repos\Z04-Console\Z04-Console\obj\Debug\netcoreapp3.1\Z04-Console.genruntimeconfig.cache

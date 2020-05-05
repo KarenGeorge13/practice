@@ -1,0 +1,10 @@
+C:\Users\karli\source\repos\Z05-Form\Z05-Form\bin\Debug\Z05-Form.exe.config
+C:\Users\karli\source\repos\Z05-Form\Z05-Form\bin\Debug\Z05-Form.exe
+C:\Users\karli\source\repos\Z05-Form\Z05-Form\bin\Debug\Z05-Form.pdb
+C:\Users\karli\source\repos\Z05-Form\Z05-Form\obj\Debug\Z05-Form.csprojAssemblyReference.cache
+C:\Users\karli\source\repos\Z05-Form\Z05-Form\obj\Debug\Z05_Form.Form1.resources
+C:\Users\karli\source\repos\Z05-Form\Z05-Form\obj\Debug\Z05_Form.Properties.Resources.resources
+C:\Users\karli\source\repos\Z05-Form\Z05-Form\obj\Debug\Z05-Form.csproj.GenerateResource.cache
+C:\Users\karli\source\repos\Z05-Form\Z05-Form\obj\Debug\Z05-Form.csproj.CoreCompileInputs.cache
+C:\Users\karli\source\repos\Z05-Form\Z05-Form\obj\Debug\Z05-Form.exe
+C:\Users\karli\source\repos\Z05-Form\Z05-Form\obj\Debug\Z05-Form.pdb
