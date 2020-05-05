@@ -1,0 +1,10 @@
+C:\Users\karli\source\repos\Z11-Form\Z11-Form\bin\Debug\Z11-Form.exe.config
+C:\Users\karli\source\repos\Z11-Form\Z11-Form\bin\Debug\Z11-Form.exe
+C:\Users\karli\source\repos\Z11-Form\Z11-Form\bin\Debug\Z11-Form.pdb
+C:\Users\karli\source\repos\Z11-Form\Z11-Form\obj\Debug\Z11-Form.csprojAssemblyReference.cache
+C:\Users\karli\source\repos\Z11-Form\Z11-Form\obj\Debug\Z11_Form.Form1.resources
+C:\Users\karli\source\repos\Z11-Form\Z11-Form\obj\Debug\Z11_Form.Properties.Resources.resources
+C:\Users\karli\source\repos\Z11-Form\Z11-Form\obj\Debug\Z11-Form.csproj.GenerateResource.cache
+C:\Users\karli\source\repos\Z11-Form\Z11-Form\obj\Debug\Z11-Form.csproj.CoreCompileInputs.cache
+C:\Users\karli\source\repos\Z11-Form\Z11-Form\obj\Debug\Z11-Form.exe
+C:\Users\karli\source\repos\Z11-Form\Z11-Form\obj\Debug\Z11-Form.pdb
