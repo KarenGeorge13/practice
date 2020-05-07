@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Z02_Form
@@ -62,7 +56,7 @@ namespace Z02_Form
         {
             const double R = 10;
             double x, y;
-            if (double.TryParse(textBox1.Text, out x) && double.TryParse(textBox2.Text, out y)) 
+            if (double.TryParse(textBox1.Text, out x) && double.TryParse(textBox2.Text, out y))
             {
                 result1.Text = "resfggf";
                 if (x * x + y * y <= R * R)
@@ -89,34 +83,41 @@ namespace Z02_Form
                     result1.Text = "Точка лежит вне закрашенной области";
                 }
             }
+            else 
+            {
+                result1.Text = "Вы ввели что-то не то";
+            }
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             int chanel;
-            int.TryParse(textBox3.Text, out chanel);
-            richTextBox1.Text = "Наиболее популярные программы канала №" + chanel + ":\n";
-            switch (chanel)
+            if( int.TryParse(textBox3.Text, out chanel))
             {
-                case 1:
-                    richTextBox1.Text += "Пусть говорят\nЖить здорово\n";
-                    break;
-                case 2:
-                    richTextBox1.Text += "Вести \nБитва хороd\n";
-                    break;
-                case 3:
-                    richTextBox1.Text += "Час суда\nМухтар\n";
-                    break;
-                case 4:
-                    richTextBox1.Text += "Военная тайна\nСлед\n";
-                    break;
-                default:
-                    richTextBox1.Text += "У выбранного канала нет популярных программ\n";
-                    break;
+                richTextBox1.Text = "Наиболее популярные программы канала №" + chanel + ":\n";
+                switch (chanel)
+                {
+                    case 1:
+                        richTextBox1.Text += "Пусть говорят\nЖить здорово\n";
+                        break;
+                    case 2:
+                        richTextBox1.Text += "Вести \nБитва хороd\n";
+                        break;
+                    case 3:
+                        richTextBox1.Text += "Час суда\nМухтар\n";
+                        break;
+                    case 4:
+                        richTextBox1.Text += "Военная тайна\nСлед\n";
+                        break;
+                    default:
+                        richTextBox1.Text += "У выбранного канала нет популярных программ\n";
+                        break;
+                }
             }
-
+            else
+            {
+                richTextBox1.Text = "Вы ввели что-то не то";
+            }
         }
-
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             int n = (int)numericUpDown1.Value;

@@ -45,12 +45,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label7 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -85,7 +85,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(541, 227);
+            this.tabPage1.Size = new System.Drawing.Size(451, 195);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Программа 1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -226,6 +226,14 @@
             this.tabPage3.Text = "Программа 3";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Location = new System.Drawing.Point(9, 26);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(425, 153);
+            this.richTextBox2.TabIndex = 1;
+            this.richTextBox2.Text = "";
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -247,22 +255,13 @@
             this.tabPage4.Text = "Программа 4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // richTextBox2
+            // richTextBox3
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(9, 26);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(425, 153);
-            this.richTextBox2.TabIndex = 1;
-            this.richTextBox2.Text = "";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(18, 14);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(149, 13);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Введите количество рядов: ";
+            this.richTextBox3.Location = new System.Drawing.Point(21, 38);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(403, 147);
+            this.richTextBox3.TabIndex = 2;
+            this.richTextBox3.Text = "";
             // 
             // numericUpDown1
             // 
@@ -287,19 +286,20 @@
             0});
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
-            // richTextBox3
+            // label7
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(21, 38);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(403, 139);
-            this.richTextBox3.TabIndex = 2;
-            this.richTextBox3.Text = "";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(18, 14);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(149, 13);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Введите количество рядов: ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(455, 218);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Практикум 2";

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Z01_Form
@@ -46,6 +39,10 @@ namespace Z01_Form
                 {
                     result2.Text = "Треугольник не равнобедренный";
                 }
+            }
+            else
+            {
+                result2.Text = "Вы ввели что-то не то";
             }
         }
     }

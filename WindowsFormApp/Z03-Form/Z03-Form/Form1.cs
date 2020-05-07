@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Z03_Form
@@ -73,7 +67,7 @@ namespace Z03_Form
         }
         bool t(double a, double b, double c)
         {
-            if (a + b < c || a + c < b || b + c < a)
+            if (a + b <= c || a + c <= b || b + c <= a)
             {
                 return false;
             }
@@ -91,6 +85,10 @@ namespace Z03_Form
                     richTextBox1.Text += "x = " + x + "; y = " + f(x) + "\n";
                 }
             }
+            else 
+            {
+                richTextBox1.Text = "Вы ввели что-то не то";
+            }
         }
         private void button3_Click(object sender, EventArgs e)
         {
@@ -104,6 +102,10 @@ namespace Z03_Form
                     f(x, out y);
                     richTextBox1.Text += "x = " + x + "; y = " + y + "\n";
                 }
+            }
+            else
+            {
+                richTextBox1.Text = "Вы ввели что-то не то";
             }
         }
     }

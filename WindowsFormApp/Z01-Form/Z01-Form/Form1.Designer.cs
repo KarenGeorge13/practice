@@ -30,6 +30,9 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.result1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -38,19 +41,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.result1 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.result2 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.result2 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -85,6 +85,33 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Программа 1";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // result1
+            // 
+            this.result1.AutoSize = true;
+            this.result1.Location = new System.Drawing.Point(181, 174);
+            this.result1.Name = "result1";
+            this.result1.Size = new System.Drawing.Size(0, 13);
+            this.result1.TabIndex = 9;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(31, 174);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(138, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Сумма членов прогресси:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(82, 135);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(168, 25);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Вычислить сумму";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox3
             // 
@@ -163,73 +190,32 @@
             this.tabPage2.Text = "Программа 2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // result2
             // 
-            this.button1.Location = new System.Drawing.Point(82, 135);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(168, 25);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Вычислить сумму";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.result2.AutoSize = true;
+            this.result2.Location = new System.Drawing.Point(134, 170);
+            this.result2.Name = "result2";
+            this.result2.Size = new System.Drawing.Size(0, 13);
+            this.result2.TabIndex = 9;
             // 
-            // label5
+            // label10
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(31, 174);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Сумма членов прогресси:";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(58, 170);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(65, 13);
+            this.label10.TabIndex = 8;
+            this.label10.Text = "Результат: ";
             // 
-            // result1
+            // button2
             // 
-            this.result1.AutoSize = true;
-            this.result1.Location = new System.Drawing.Point(181, 174);
-            this.result1.Name = "result1";
-            this.result1.Size = new System.Drawing.Size(0, 13);
-            this.result1.TabIndex = 9;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(40, 9);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(227, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Проверка равнобедренности треугольника";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(58, 31);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(64, 13);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Сторона 1: ";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(137, 28);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 2;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(137, 59);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 4;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(58, 62);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(64, 13);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "Сторона 2: ";
+            this.button2.Location = new System.Drawing.Point(43, 127);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(202, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Проверить на равнобедренность";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox6
             // 
@@ -247,32 +233,46 @@
             this.label9.TabIndex = 5;
             this.label9.Text = "Сторона 3: ";
             // 
-            // button2
+            // textBox5
             // 
-            this.button2.Location = new System.Drawing.Point(43, 127);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(202, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Проверить на равнобедренность";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.textBox5.Location = new System.Drawing.Point(137, 59);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 4;
             // 
-            // label10
+            // label8
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(58, 170);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(65, 13);
-            this.label10.TabIndex = 8;
-            this.label10.Text = "Результат: ";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(58, 62);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(64, 13);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Сторона 2: ";
             // 
-            // result2
+            // textBox4
             // 
-            this.result2.AutoSize = true;
-            this.result2.Location = new System.Drawing.Point(134, 170);
-            this.result2.Name = "result2";
-            this.result2.Size = new System.Drawing.Size(0, 13);
-            this.result2.TabIndex = 9;
+            this.textBox4.Location = new System.Drawing.Point(137, 28);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.TabIndex = 2;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(58, 31);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(64, 13);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Сторона 1: ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(40, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(227, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Проверка равнобедренности треугольника";
             // 
             // Form1
             // 
@@ -281,7 +281,7 @@
             this.ClientSize = new System.Drawing.Size(349, 229);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
-            this.Text = "Z01";
+            this.Text = "Практикум 1";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();

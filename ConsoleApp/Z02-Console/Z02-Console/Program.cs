@@ -69,6 +69,7 @@ namespace Z02_Console
 
         //static void Main(string[] args) //Задание 3
         //{
+        //    Console.WriteLine("Цикл while");
         //    int i = 101;
         //    int curNum = i + 90;
         //    while (i < 1000)
@@ -81,7 +82,7 @@ namespace Z02_Console
         //            curNum = i + 90;
         //        }
         //    }
-
+        //    Console.WriteLine("\nЦикл do while");
         //    i = 101;
         //    curNum = i + 90;
         //    do
@@ -94,7 +95,7 @@ namespace Z02_Console
         //            curNum = i + 90;
         //        }
         //    } while (i < 1000);
-
+        //    Console.WriteLine("\nЦикл for");
         //    for (int j = 101; j < 1000; j += 1)
         //    {
         //        for (int cur = j + 90; j <= cur; j += 10)
@@ -107,7 +108,7 @@ namespace Z02_Console
 
         static void Main(string[] args) //Задание 4
         {
-            Console.Write("Введите количество рядов: ");
+            Console.Write("Введите количество рядов (не больше 10): ");
             int n = Convert.ToInt32(Console.ReadLine());
             if (n > 10)
             {
