@@ -6,12 +6,15 @@ namespace Z04_Console
 	{
 		static void Main(string[] args)
 		{
-			int m, k;
-			Console.Write("Введите m: ");
-			int.TryParse(Console.ReadLine(), out m);
-			Console.Write("Введите k: ");
-			int.TryParse(Console.ReadLine(), out k);
-			Console.WriteLine(sum(m) + sum(2 * k));
+			//Задание 1
+			//int m, k;
+			//Console.Write("Введите m: ");
+			//int.TryParse(Console.ReadLine(), out m);
+			//Console.Write("Введите k: ");
+			//int.TryParse(Console.ReadLine(), out k);
+			//Console.WriteLine(sum(m) + sum(2 * k));
+			
+			//Задание 2
 			int n;
 			Console.Write("Введите n: ");
 			int.TryParse(Console.ReadLine(), out n);

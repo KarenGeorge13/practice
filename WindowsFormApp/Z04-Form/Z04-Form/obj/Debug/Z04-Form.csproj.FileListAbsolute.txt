@@ -8,3 +8,13 @@ C:\Users\karli\source\repos\Z04-Form\Z04-Form\obj\Debug\Z04-Form.csproj.Generate
 C:\Users\karli\source\repos\Z04-Form\Z04-Form\obj\Debug\Z04-Form.csproj.CoreCompileInputs.cache
 C:\Users\karli\source\repos\Z04-Form\Z04-Form\obj\Debug\Z04-Form.exe
 C:\Users\karli\source\repos\Z04-Form\Z04-Form\obj\Debug\Z04-Form.pdb
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z04-Form\Z04-Form\bin\Debug\Z04-Form.exe.config
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z04-Form\Z04-Form\bin\Debug\Z04-Form.exe
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z04-Form\Z04-Form\bin\Debug\Z04-Form.pdb
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z04-Form\Z04-Form\obj\Debug\Z04-Form.csprojAssemblyReference.cache
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z04-Form\Z04-Form\obj\Debug\Z04_Form.Form1.resources
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z04-Form\Z04-Form\obj\Debug\Z04_Form.Properties.Resources.resources
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z04-Form\Z04-Form\obj\Debug\Z04-Form.csproj.GenerateResource.cache
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z04-Form\Z04-Form\obj\Debug\Z04-Form.csproj.CoreCompileInputs.cache
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z04-Form\Z04-Form\obj\Debug\Z04-Form.exe
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z04-Form\Z04-Form\obj\Debug\Z04-Form.pdb

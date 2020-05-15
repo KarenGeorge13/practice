@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Z06_Form
@@ -23,7 +16,10 @@ namespace Z06_Form
             InitializeComponent();
 			arrayDimension = ArrayD.OneD;
 			toolTip1.SetToolTip(this.richTextBox1, "Пример заполнения одномерного массива\n1 2 3 4\nПример заполнения двумерного массива\n1 2\n3 4");
-        }
+			toolTip1.SetToolTip(this.richTextBox3, "Пример заполнения последовательнсоти\n1 2 3 4");
+			toolTip1.SetToolTip(this.richTextBox4, "Пример заполнения двумерного массива\n1 2\n3 4");
+			toolTip1.SetToolTip(this.richTextBox6, "Пример заполнения двумерного массива\n1 2\n3 4");
+		}
 		int[] Input1D(RichTextBox RTB, TextBox TB)
 		{
 			try
@@ -39,7 +35,7 @@ namespace Z06_Form
 			}
 			catch (Exception ex)
 			{
-				RTB.Text = ex.Message;
+				RTB.Text += "\n" + ex.Message;
 			}
 			return null;
 		}
@@ -63,7 +59,7 @@ namespace Z06_Form
 			}
 			catch (Exception ex)
 			{
-				RTB.Text = ex.Message;
+				RTB.Text += "\n" + ex.Message;
 			}
 			return null;
 		}
@@ -124,6 +120,7 @@ namespace Z06_Form
 				}
 			}
 		}
+
 		private void button4_Click(object sender, EventArgs e)
 		{
 			int[] mas = Input1D(richTextBox3, textBox3);
@@ -141,6 +138,7 @@ namespace Z06_Form
 				result1.Text += count;
 			}
 		}
+
 		private void button5_Click(object sender, EventArgs e)
 		{
 			int[,] mas = Input2D(richTextBox4, textBox4, textBox5);
@@ -175,6 +173,7 @@ namespace Z06_Form
 				}
 			}
 		}
+
 		private void button6_Click(object sender, EventArgs e)
 		{
 			int[,] mas2D = Input2D(richTextBox6, textBox6, textBox7);
@@ -195,7 +194,7 @@ namespace Z06_Form
 				richTextBox7.Text = "";
 				for (int i = 0; i < mas.Length; i++)
 				{
-					richTextBox7.Text += mas[i] + " ";
+					richTextBox7.Text += mas[i] + "\n";
 				}
 			}
 		}

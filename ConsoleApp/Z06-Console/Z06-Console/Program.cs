@@ -7,25 +7,30 @@ namespace Z06_Console
 		//static void Main(string[] args)//Задание 1
 		//{
 		//	int[] mas1D = Input1D();
+		//	Console.WriteLine("Элементы с четными индексами:");
 		//	for (int i = 0; i < mas1D.Length; i++)
 		//	{
 		//		if (i % 2 == 0)
 		//		{
-		//			Console.WriteLine(mas1D[i]);
+		//			Console.Write(mas1D[i] + " ");
 		//		}
 		//	}
+		//	Console.WriteLine();
 		//	int[,] mas2D = Input2D();
+		//	Console.WriteLine("Элементы с четной суммой индексов:");
 		//	for (int i = 0; i < mas2D.GetLength(0); i++)
 		//	{
 		//		for (int j = 0; j < mas2D.GetLength(1); j++)
 		//		{
 		//			if ((i + j) % 2 == 0)
 		//			{
-		//				Console.WriteLine(mas2D[i, j]);
+		//				Console.Write(mas2D[i, j] + " ");
 		//			}
 		//		}
 		//	}
+		//	Console.WriteLine();
 		//}
+
 		//static void Main(string[] args)//Задание 2
 		//{
 		//	int[] mas = Input1D();
@@ -37,8 +42,9 @@ namespace Z06_Console
 		//			count++;
 		//		}
 		//	}
-		//	Console.WriteLine(count);
+		//	Console.WriteLine("Количество пар соседних элементов, в которых предыдущий элемент кратен последующему: " + count);
 		//}
+
 		//static void Main(string[] args)//Задание 3
 		//{
 		//	int[,] mas = Input2D();
@@ -64,11 +70,12 @@ namespace Z06_Console
 		//	{
 		//		for (int j = 0; j < mas.GetLength(1); j++)
 		//		{
-		//			Console.Write(mas[i, j]);
+		//			Console.Write(mas[i, j] + " ");
 		//		}
 		//		Console.WriteLine();
 		//	}
 		//}
+
 		static void Main(string[] args) //Задание 4
 		{
 			int[,] mas2D = Input2D();
@@ -86,7 +93,7 @@ namespace Z06_Console
 			}
 			for (int i = 0; i < mas.Length; i++)
 			{
-				Console.WriteLine(mas[i]);
+				Console.WriteLine("Номер первой пары неравных элементов для строки " + (i+1) + ": " + mas[i]);
 			}
 		}
 		static int[] Input1D() 

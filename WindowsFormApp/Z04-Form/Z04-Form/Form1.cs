@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Z04_Form
@@ -27,9 +21,13 @@ namespace Z04_Form
         {
             int m, k;
             result1.Text = "Результат вычислений: ";
-            if (int.TryParse(textBox1.Text, out m) & int.TryParse(textBox2.Text, out k)) 
+            if (int.TryParse(textBox1.Text, out m) & int.TryParse(textBox2.Text, out k))
             {
                 result1.Text += sum(m) + sum(2 * k);
+            }
+            else
+            {
+                result1.Text = "Вы ввели что-то не то";
             }
         }
         int sum(int n, int i = 1)
