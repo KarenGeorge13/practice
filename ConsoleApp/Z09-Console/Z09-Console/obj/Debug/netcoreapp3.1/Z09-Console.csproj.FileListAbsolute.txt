@@ -11,3 +11,16 @@ C:\Users\karli\source\repos\Z09-Console\Z09-Console\obj\Debug\netcoreapp3.1\Z09-
 C:\Users\karli\source\repos\Z09-Console\Z09-Console\obj\Debug\netcoreapp3.1\Z09-Console.dll
 C:\Users\karli\source\repos\Z09-Console\Z09-Console\obj\Debug\netcoreapp3.1\Z09-Console.pdb
 C:\Users\karli\source\repos\Z09-Console\Z09-Console\obj\Debug\netcoreapp3.1\Z09-Console.genruntimeconfig.cache
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\bin\Debug\netcoreapp3.1\Z09-Console.exe
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\bin\Debug\netcoreapp3.1\Z09-Console.deps.json
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\bin\Debug\netcoreapp3.1\Z09-Console.runtimeconfig.json
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\bin\Debug\netcoreapp3.1\Z09-Console.runtimeconfig.dev.json
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\bin\Debug\netcoreapp3.1\Z09-Console.dll
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\bin\Debug\netcoreapp3.1\Z09-Console.pdb
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\obj\Debug\netcoreapp3.1\Z09-Console.csprojAssemblyReference.cache
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\obj\Debug\netcoreapp3.1\Z09-Console.csproj.CoreCompileInputs.cache
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\obj\Debug\netcoreapp3.1\Z09-Console.AssemblyInfoInputs.cache
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\obj\Debug\netcoreapp3.1\Z09-Console.AssemblyInfo.cs
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\obj\Debug\netcoreapp3.1\Z09-Console.dll
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\obj\Debug\netcoreapp3.1\Z09-Console.pdb
+C:\Users\karli\OneDrive\Рабочий стол\practice\ConsoleApp\Z09-Console\Z09-Console\obj\Debug\netcoreapp3.1\Z09-Console.genruntimeconfig.cache

@@ -1,5 +1,5 @@
 ﻿using System;
-using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace Z07_Console
@@ -8,6 +8,7 @@ namespace Z07_Console
     {
         //static void Main(string[] args)//Задание 1
         //{
+        //    Console.Write("Введите исходную строку: ");
         //    string s = Console.ReadLine();
         //    int firstComma = s.IndexOf(',');
         //    int deleteStrLenght = 0;
@@ -16,18 +17,18 @@ namespace Z07_Console
         //        deleteStrLenght++;
 
         //    } while (s[firstComma + deleteStrLenght] != ',');
-        //    s = s.Remove(firstComma, ++deleteStrLenght);
-        //    Console.WriteLine(s);
+        //    s = s.Remove(firstComma, deleteStrLenght);
+        //    Console.WriteLine("Отредактированная строка: " + s);
         //}
         static void Main(string[] args)//Задание 2
         {
+            Console.Write("Введите исходную строку: ");
             StringBuilder message = new StringBuilder(Console.ReadLine());
-
             for (int i = 0; i < message.Length;)
             {
                 if (char.IsPunctuation(message[i]))
                 {
-                    message.Remove(i, 1);
+                    message.Replace(message[i], ' ');
                 }
                 else
                 {
@@ -35,7 +36,9 @@ namespace Z07_Console
                 }
             }
             string[] s = message.ToString().Split(' ');
+            s = s.Where(item => item != "").ToArray();
             Array.Sort(s);
+            Console.WriteLine("Слова сообщения в алфавитном порядке:");
             for (int i = 0; i < s.Length; i++)
             {
                 Console.WriteLine(s[i]);

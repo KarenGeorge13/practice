@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karli\\source\\repos\\Z10-Console\\Z10-Console\\Z10-Console.csproj",
+      "projectUniqueName": "C:\\Users\\karli\\OneDrive\\Рабочий стол\\practice\\ConsoleApp\\Z10-Console\\Z10-Console\\Z10-Console.csproj",
       "projectName": "Z10-Console",
-      "projectPath": "C:\\Users\\karli\\source\\repos\\Z10-Console\\Z10-Console\\Z10-Console.csproj",
+      "projectPath": "C:\\Users\\karli\\OneDrive\\Рабочий стол\\practice\\ConsoleApp\\Z10-Console\\Z10-Console\\Z10-Console.csproj",
       "packagesPath": "C:\\Users\\karli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karli\\source\\repos\\Z10-Console\\Z10-Console\\obj\\",
+      "outputPath": "C:\\Users\\karli\\OneDrive\\Рабочий стол\\practice\\ConsoleApp\\Z10-Console\\Z10-Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -7,8 +7,8 @@ namespace Z08_Console
     {
         static void Main(string[] args)
         {
-            string s = "Я хочу встретиться с вами в 12:59:53";
-            Console.WriteLine(s);
+            Console.Write("Введите исходную строку: ");
+            string s = Console.ReadLine();
             string pattern = @"\d{2}:\d{2}:\d{2}";
             Regex regex = new Regex(pattern);
             MatchCollection matches = regex.Matches(s);
@@ -28,7 +28,7 @@ namespace Z08_Console
                     s = regex.Replace(s, time.ToString(@"hh\:mm"));
                 }
             }
-            Console.WriteLine(s);
+            Console.WriteLine("Строка с временем в формате чч:мм : " + s);
         }
     }
 }

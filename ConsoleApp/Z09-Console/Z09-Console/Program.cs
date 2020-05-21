@@ -5,38 +5,40 @@ namespace Z09_Console
 {
 	class Program
 	{
-		static void Main(string[] args)//Задание 1
+		//static void Main(string[] args)//Задание 1
+		//{
+		//	string s = "Набор слов которые забудтся как слезы в дожде";
+		//	Console.WriteLine("Строка для сохранения в файл: " + s);
+		//	string[] strmas = s.Split(' ');
+		//	BinaryWriter writer = new BinaryWriter(File.Open("file.dat", FileMode.OpenOrCreate));
+		//	for (int i = 0; i < strmas.Length; i++) 
+		//	{
+		//		writer.Write(strmas[i]);
+		//	}
+		//	writer.Close();
+		//	BinaryReader reader = new BinaryReader(File.Open("file.dat", FileMode.Open));
+		//	Console.WriteLine("Cлова, которые начинаются и заканчиваются одной буквой:");
+		//	while (reader.PeekChar() > -1) 
+		//	{
+		//		string buf = reader.ReadString();
+		//		if (buf[0] == buf[buf.Length - 1]) 
+		//		{
+		//			Console.WriteLine(buf);
+		//		}
+		//	}
+		//	reader.Close();
+		//}
+		static void Main(string[] args)//Задание 2
 		{
-			string s = "Набор слов которые забудтся как слезы в дожде";
-			string[] strmas = s.Split(' ');
-			BinaryWriter writer = new BinaryWriter(File.Open("file.dat", FileMode.OpenOrCreate));
-			for (int i = 0; i < strmas.Length; i++) 
+			string[] s = File.ReadAllLines("text1.txt");
+			File.WriteAllText("text2.txt", "");
+			for (int i = 0; i < s.Length; i++)
 			{
-				writer.Write(strmas[i]);
-			}
-			writer.Close();
-			BinaryReader reader = new BinaryReader(File.Open("file.dat", FileMode.Open));
-			while (reader.PeekChar() > -1) 
-			{
-				string buf = reader.ReadString();
-				if (buf[0] == buf[buf.Length - 1]) 
+				if (s[i].Length % 2 == 0)
 				{
-					Console.WriteLine(buf);
+					File.AppendAllText("text2.txt", s[i] + "\n");
 				}
 			}
-			reader.Close();
 		}
-		//static void Main(string[] args)//Задание 2
-		//{
-		//    string[] s = File.ReadAllLines("text1.txt");
-		//    File.WriteAllText("text2.txt", "");
-		//    for (int i = 0; i < s.Length; i++) 
-		//    {
-		//        if (s[i].Length % 2 == 0) 
-		//        {
-		//            File.AppendAllText("text2.txt", s[i] + "\n");
-		//        }
-		//    }
-		//}
 	}
 }
