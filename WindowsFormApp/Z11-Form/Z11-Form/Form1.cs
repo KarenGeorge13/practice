@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml;
 
 namespace Z11_Form
 {
@@ -28,7 +21,6 @@ namespace Z11_Form
             textBox4.Text = str.Line.ToString();
             str.RemovePunctuation();
             textBox5.Text = str.Line.ToString();
-
         }
     }
 }

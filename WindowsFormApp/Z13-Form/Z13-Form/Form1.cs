@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.IO;
 using System.Windows.Forms;
 
@@ -18,7 +12,6 @@ namespace Z13_Form
         {
             InitializeComponent();
 			path = "data.txt";
-			//SaveInFile(path);
 			ReadFromFile(path);
 			OutputList();
 		}
@@ -45,6 +38,10 @@ namespace Z13_Form
 				{
 					richTextBox2.Text += tD.OutputNote() + "\n";
 				}
+			}
+			if (richTextBox2.Text == "")
+			{
+				richTextBox2.Text = "Записей не найдено";
 			}
 		}
 		void ReadFromFile(string path)

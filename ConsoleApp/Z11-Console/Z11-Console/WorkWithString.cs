@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Text;
 
-namespace Z11_Form
+namespace Z11_Console
 {
 	class WorkWithString
 	{
 		private StringBuilder line;
 		public StringBuilder Line
 		{
-			get 
+			get
 			{
 				return line;
 			}
-			set 
+			set
 			{
 				line = value;
 				n = line.Length;
@@ -24,7 +24,7 @@ namespace Z11_Form
 		{
 			line = new StringBuilder("");
 			n = 0;
-			
+
 		}
 		public WorkWithString(char[] mas)
 		{

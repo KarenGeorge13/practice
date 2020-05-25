@@ -205,7 +205,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Практикум 12";
             this.ResumeLayout(false);
             this.PerformLayout();
 

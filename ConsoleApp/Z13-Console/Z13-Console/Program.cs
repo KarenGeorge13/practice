@@ -3,146 +3,6 @@ using System.IO;
 
 namespace Z13_Console
 {
-	abstract class TelephoneDirectory
-	{
-		public abstract string OutputNote();
-		public abstract TelephoneDirectory MatchByFamily(string family);
-	}
-	class Person :TelephoneDirectory
-	{
-		private string lastName;
-		private string address;
-		private string phoneNumber;
-		public Person() 
-		{
-			this.lastName = "";
-			this.address = "";
-			this.phoneNumber = "";
-		}
-		public Person(string lastName, string address, string phoneNumber) 
-		{
-			this.lastName = lastName;
-			this.address = address;
-			this.phoneNumber = phoneNumber;
-		}
-		public override string OutputNote()
-		{
-			string str = "Фамилия: " + lastName + "\n";
-			str += "Адрес: " + address + "\n";
-			str += "Номер: " + phoneNumber + "\n";
-			return str;
-		}
-		public override TelephoneDirectory MatchByFamily(string family)
-		{
-			if (family == lastName)
-			{
-				return this;
-			}
-			return null;
-		}
-		public override string ToString()
-		{
-			string str = lastName + " ";
-			str += address + " ";
-			str += phoneNumber + " ";
-			return str;
-		}
-	}
-	class Friend : TelephoneDirectory
-	{
-		private string lastName;
-		private string address;
-		private string phoneNumber;
-		private string birthDate;
-		public Friend() 
-		{
-			this.lastName = "";
-			this.address = "";
-			this.phoneNumber = "";
-			this.birthDate = "";
-		}
-		public Friend(string lastName, string address, string phoneNumber, string birthDate)
-		{
-			this.lastName = lastName;
-			this.address = address;
-			this.phoneNumber = phoneNumber;
-			this.birthDate = birthDate;
-		}
-		public override string OutputNote()
-		{
-			string str = "Фамилия: " + lastName + "\n";
-			str += "Адрес: " + address + "\n";
-			str += "Номер: " + phoneNumber + "\n";
-			str += "Дата рождения: " + birthDate + "\n";
-			return str;
-		}
-		public override TelephoneDirectory MatchByFamily(string family)
-		{
-			if (family == lastName)
-			{
-				return this;
-			}
-			return null;
-		}
-		public override string ToString()
-		{
-			string str = lastName + " ";
-			str += address + " ";
-			str += phoneNumber + " ";
-			str += birthDate + " ";
-			return str;
-		}
-	}
-	class Organization : TelephoneDirectory 
-	{
-		private string organizationName;
-		private string contactPerson;
-		private string address;
-		private string phoneNumber;
-		private string fax;
-		public Organization() 
-		{
-			this.organizationName = "";
-			this.contactPerson = "";
-			this.address = "";
-			this.phoneNumber = "";
-			this.fax = "";
-		}
-		public Organization(string organizationName, string contactPerson, string address, string phoneNumber, string fax)
-		{
-			this.organizationName = organizationName;
-			this.contactPerson = contactPerson;
-			this.address = address;
-			this.phoneNumber = phoneNumber;
-			this.fax = fax;
-		}
-		public override string OutputNote()
-		{
-			string str = "Название организации: " + organizationName + "\n"; 
-			str += "Контактное лицо: " + contactPerson + "\n";
-			str += "Адрес: " + address + "\n";
-			str += "Номер: " + phoneNumber + "\n";
-			str += "Дата рождения: " + fax + "\n";
-			return str;
-		}
-		public override TelephoneDirectory MatchByFamily(string family)
-		{
-			if (family == contactPerson)
-			{
-				return this;
-			}
-			return null;
-		}
-		public override string ToString()
-		{
-			string str = organizationName + " ";
-			str += contactPerson + " ";
-			str += address + " ";
-			str += phoneNumber + " ";
-			str += fax + " ";
-			return str;
-		}
-	}
 	class Program
 	{
 		static void Main(string[] args)
@@ -152,11 +12,12 @@ namespace Z13_Console
 			SaveInFile(path);
 			TelephoneDirectory[] telephoneDirectories;
 			ReadFromFile(path, out telephoneDirectories);
+			Console.WriteLine("Информация о всех записях: ");
 			foreach (TelephoneDirectory tD in telephoneDirectories)
 			{
 				Console.WriteLine(tD.OutputNote());
 			}
-			Console.WriteLine();
+			Console.WriteLine("Информация о записях с фамилией \"Георгиевский\":");
 			foreach (TelephoneDirectory tD in telephoneDirectories)
 			{
 				if (tD.MatchByFamily("Георгиевский") != null)
@@ -165,7 +26,7 @@ namespace Z13_Console
 				}
 			}
 		}
-		static void SaveInFile(string path) 
+		static void SaveInFile(string path) //Приведено для понимания организации хранения объектов в файле
 		{
 			TelephoneDirectory[] telephoneDirectory = new TelephoneDirectory[3];
 			telephoneDirectory[0] = new Person("Георгиевский", "Владимир", "+7(800)555-35-35");
