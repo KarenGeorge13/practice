@@ -36,5 +36,11 @@ namespace Z14_16_Form
             ResettlementForm f = new ResettlementForm();
             f.Show();
         }
+
+        private void запросToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RequestForm f = new RequestForm();
+            f.Show();
+        }
     }
 }

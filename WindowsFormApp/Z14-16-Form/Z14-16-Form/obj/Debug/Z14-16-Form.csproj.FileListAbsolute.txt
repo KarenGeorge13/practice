@@ -17,3 +17,22 @@ C:\Users\karli\source\repos\Z14-16-Form\Z14-16-Form\obj\Debug\Z14_16_Form.studen
 C:\Users\karli\source\repos\Z14-16-Form\Z14-16-Form\obj\Debug\Z14_16_Form.lgotaForm.resources
 C:\Users\karli\source\repos\Z14-16-Form\Z14-16-Form\obj\Debug\Z14_16_Form.ResettlementForm.resources
 C:\Users\karli\source\repos\Z14-16-Form\Z14-16-Form\obj\Debug\Z14_16_Form.Form1.resources
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\bin\Debug\hostelDataSet.Designer.cs
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\bin\Debug\hostelDataSet.xsc
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\bin\Debug\hostelDataSet.xsd
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\bin\Debug\hostelDataSet.xss
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\bin\Debug\Z14-16-Form.exe.config
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\bin\Debug\Z14-16-Form.exe
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\bin\Debug\Z14-16-Form.pdb
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\obj\Debug\Z14-16-Form.csprojAssemblyReference.cache
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\obj\Debug\Z14_16_Form.LgotaForm.resources
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\obj\Debug\Z14_16_Form.MainMenu.resources
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\obj\Debug\Z14_16_Form.Properties.Resources.resources
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\obj\Debug\Z14_16_Form.RequestForm.resources
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\obj\Debug\Z14_16_Form.ResettlementForm.resources
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\obj\Debug\Z14_16_Form.RoomsForm.resources
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\obj\Debug\Z14_16_Form.StudentsForm.resources
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\obj\Debug\Z14-16-Form.csproj.GenerateResource.cache
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\obj\Debug\Z14-16-Form.csproj.CoreCompileInputs.cache
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\obj\Debug\Z14-16-Form.exe
+C:\Users\karli\OneDrive\Рабочий стол\practice\WindowsFormApp\Z14-16-Form\Z14-16-Form\obj\Debug\Z14-16-Form.pdb
