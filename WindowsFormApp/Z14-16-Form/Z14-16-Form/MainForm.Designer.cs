@@ -42,11 +42,11 @@
             this.toolStripSplitButton3 = new System.Windows.Forms.ToolStripSplitButton();
             this.расселениеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.запросToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.отчетыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.header = new System.Windows.Forms.Label();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.hostelDataSet = new Z14_16_Form.hostelDataSet();
-            this.отчетыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hostelDataSet)).BeginInit();
@@ -145,16 +145,23 @@
             // расселениеToolStripMenuItem
             // 
             this.расселениеToolStripMenuItem.Name = "расселениеToolStripMenuItem";
-            this.расселениеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.расселениеToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.расселениеToolStripMenuItem.Text = "Расселение";
             this.расселениеToolStripMenuItem.Click += new System.EventHandler(this.расселениеToolStripMenuItem_Click);
             // 
             // запросToolStripMenuItem
             // 
             this.запросToolStripMenuItem.Name = "запросToolStripMenuItem";
-            this.запросToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.запросToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.запросToolStripMenuItem.Text = "Запрос";
             this.запросToolStripMenuItem.Click += new System.EventHandler(this.запросToolStripMenuItem_Click);
+            // 
+            // отчетыToolStripMenuItem
+            // 
+            this.отчетыToolStripMenuItem.Name = "отчетыToolStripMenuItem";
+            this.отчетыToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.отчетыToolStripMenuItem.Text = "Отчеты";
+            this.отчетыToolStripMenuItem.Click += new System.EventHandler(this.отчетыToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
@@ -181,13 +188,6 @@
             this.hostelDataSet.DataSetName = "hostelDataSet";
             this.hostelDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // отчетыToolStripMenuItem
-            // 
-            this.отчетыToolStripMenuItem.Name = "отчетыToolStripMenuItem";
-            this.отчетыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.отчетыToolStripMenuItem.Text = "Отчеты";
-            this.отчетыToolStripMenuItem.Click += new System.EventHandler(this.отчетыToolStripMenuItem_Click);
-            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -207,9 +207,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.BindingSource bindingSource1;
-        private hostelDataSet hostelDataSet;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
@@ -225,6 +222,8 @@
         private System.Windows.Forms.ToolStripMenuItem запросToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem отчетыToolStripMenuItem;
+        private System.Windows.Forms.BindingSource bindingSource1;
+        private hostelDataSet hostelDataSet;
     }
 }
 

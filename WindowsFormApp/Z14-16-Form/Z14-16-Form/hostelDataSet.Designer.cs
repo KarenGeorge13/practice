@@ -2168,7 +2168,7 @@ namespace Z14_16_Form.hostelDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::Z14_16_Form.Properties.Settings.Default.DB1ConnectionString;
+            this._connection.ConnectionString = global::Z14_16_Form.Properties.Settings.Default.DB1ConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2543,7 +2543,7 @@ namespace Z14_16_Form.hostelDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::Z14_16_Form.Properties.Settings.Default.DB1ConnectionString;
+            this._connection.ConnectionString = global::Z14_16_Form.Properties.Settings.Default.DB1ConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3005,7 +3005,7 @@ namespace Z14_16_Form.hostelDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::Z14_16_Form.Properties.Settings.Default.DB1ConnectionString;
+            this._connection.ConnectionString = global::Z14_16_Form.Properties.Settings.Default.DB1ConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

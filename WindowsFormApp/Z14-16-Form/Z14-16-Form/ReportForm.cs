@@ -16,7 +16,6 @@ namespace Z14_16_Form
 			this.StudentsTableAdapter.Fill(this.hostelDataSet.Students);
 
 			this.reportViewer1.RefreshReport();
-            this.reportViewer2.RefreshReport();
         }
     }
 }

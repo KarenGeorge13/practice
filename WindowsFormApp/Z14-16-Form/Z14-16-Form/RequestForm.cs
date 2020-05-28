@@ -14,7 +14,7 @@ namespace Z14_16_Form
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			OleDbConnection sqlconn = new OleDbConnection("Provider = Microsoft.Jet.OLEDB.4.0; Data Source = C:\\Users\\karli\\OneDrive\\Рабочий стол\\работы\\3 курс\\2 семестр\\практика\\DB1.mdb;");
+			OleDbConnection sqlconn = new OleDbConnection("Provider = Microsoft.Jet.OLEDB.4.0; Data Source = C:\\Users\\karli\\OneDrive\\Рабочий стол\\practice\\WindowsFormApp\\Z14-16-Form\\DB1.mdb;");
 			sqlconn.Open();
 			string s = "";
 			if (radioButton1.Checked) 
