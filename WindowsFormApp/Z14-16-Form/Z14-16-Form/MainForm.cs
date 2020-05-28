@@ -42,5 +42,11 @@ namespace Z14_16_Form
             RequestForm f = new RequestForm();
             f.Show();
         }
+
+        private void отчетыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReportForm f = new ReportForm();
+            f.Show();
+        }
     }
 }
